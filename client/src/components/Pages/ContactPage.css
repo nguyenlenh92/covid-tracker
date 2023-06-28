@@ -1,0 +1,7 @@
+.contact-form-content{
+    display: flex;  
+    align-items: center;
+
+    width: 80%;
+    max-width: 100%;
+}

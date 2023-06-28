@@ -1,0 +1,46 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 30%;
+  }
+  
+  th,
+  td {
+    border: 2px solid #97bdc9;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+  }
+  
+  th {
+    background-color: lightcyan;
+  }
+  
+  td {
+    background-color: lightblue;
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
